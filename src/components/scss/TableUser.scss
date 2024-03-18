@@ -1,0 +1,21 @@
+.sort-header {
+    display: flex;
+    justify-content: space-between;
+    i {
+        cursor: pointer;
+        padding: 0 3px;
+        transition: 0.5s all;
+        &:hover {
+            color: gray;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .customize-table {
+        overflow-x: scroll;
+        table {
+            min-width: 768px;
+        }
+    }
+}
